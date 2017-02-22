@@ -1,5 +1,9 @@
 $background-color: #e8e8ff;
 
-body {
+html, body {
 	background-color: $background-color;
+}
+
+[v-cloak] {
+	display: none;
 }
