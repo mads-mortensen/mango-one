@@ -1,0 +1,262 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"trans",
+				"transition"
+			],
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 215.0,
+		"last_filter": "settings",
+		"selected_items":
+		[
+			[
+				"settings",
+				"Preferences: Settings"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/madsmortensen/DEV/menu"
+	],
+	"file_history":
+	[
+		"/Users/madsmortensen/DEV/loopback-test/node_modules/loopback/common/models/user.json",
+		"/Users/madsmortensen/DEV/loopback-test/common/models/message.json",
+		"/Users/madsmortensen/DEV/deleteme/index.html",
+		"/Users/madsmortensen/DEV/deleteme/app.js",
+		"/Users/madsmortensen/DEV/deleteme/node_modules/index.html",
+		"/Users/madsmortensen/DEV/deleteme/src/App.vue",
+		"/Users/madsmortensen/DEV/deleteme/src/main.js",
+		"/Users/madsmortensen/DEV/deleteme/dist/index.html",
+		"/Users/madsmortensen/DEV/deleteme/src/components/Avatar.vue",
+		"/Users/madsmortensen/DEV/deleteme1/.eslintrc.js",
+		"/Users/madsmortensen/DEV/deleteme1/src/App.vue",
+		"/Users/madsmortensen/DEV/deleteme1/config/dev.env.js",
+		"/Users/madsmortensen/DEV/deleteme1/build/build.js",
+		"/Users/madsmortensen/DEV/deleteme1/node_modules/webpack-hot-middleware/example/webpack.config.js",
+		"/Users/madsmortensen/DEV/deleteme1/index.html",
+		"/Users/madsmortensen/DEV/deleteme1/config/index.js",
+		"/Users/madsmortensen/DEV/deleteme1/src/main.js",
+		"/Users/madsmortensen/DEV/deleteme1/src/components/Hello.vue",
+		"/Users/madsmortensen/DEV/deleteme1/build/dev-server.js",
+		"/Users/madsmortensen/DEV/deleteme1/package.json"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/madsmortensen/DEV/loopback-test"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"state",
+			"posts",
+			"group",
+			"result",
+			"name",
+			"Name",
+			"name",
+			"PersistedModel",
+			"Message",
+			"total",
+			"return",
+			"body",
+			"messsage",
+			"message",
+			"account-row",
+			"name",
+			"}}</",
+			"td",
+			"name",
+			"account1",
+			"Avatar",
+			"webpackConfig",
+			"webpack",
+			"ora",
+			"webpack"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inde",
+				"public/index.html"
+			],
+			[
+				"index",
+				"public/index.html"
+			],
+			[
+				"user",
+				"node_modules/loopback/common/models/user.json"
+			],
+			[
+				"main",
+				"src/main.js"
+			],
+			[
+				"app",
+				"src/App.vue"
+			],
+			[
+				"webpackconfig",
+				"node_modules/webpack-hot-middleware/example/webpack.config.js"
+			],
+			[
+				"build",
+				"build/build.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 284.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
