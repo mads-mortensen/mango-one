@@ -1,13 +1,11 @@
 //require.context('', true);
+require('../node_modules/bulma');
 
 // Index
 require('./index.html');
 
 // Assets
 require.context('./assets/', true);
-
-// Vendor
-//
 
 // Scripts
 var scripts = require('./scripts/main.js');
