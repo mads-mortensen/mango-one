@@ -1,9 +1,6 @@
 // Vendor
 require('../node_modules/bulma');
 
-// Index
-require('./index.html');
-
 // Assets
 require.context('./assets/', true);
 

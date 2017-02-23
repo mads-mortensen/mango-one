@@ -3,6 +3,7 @@ require('css-loader');
 require('style-loader');
 
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: {
@@ -25,11 +26,16 @@ module.exports = {
 			})
   		}, {
 	      	test: /\.(html|png|jpg)$/,
+            exclude: /\index.html$/,
           	loader: 'file-loader?name=[path][name].[ext]&context=./src'
         }]
   	},
     plugins: [
-    	new ExtractTextPlugin('styles/main.css')
+        new ExtractTextPlugin('styles/main.css'),
+        new HtmlWebpackPlugin({
+            template: './src/index.html',
+            filename: 'index.html'
+        })
     ],
     resolve: {
     	alias: {
