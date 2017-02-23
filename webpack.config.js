@@ -14,6 +14,10 @@ module.exports = {
     },
     module: {
 	    rules: [{
+            test: /\.js$/,
+            exclude: /(node_modules|bower_components)/,
+            loader: 'babel-loader?presets[]=es2015'
+        }, {
 			test: /\.scss|sass$/,
 			use: ExtractTextPlugin.extract({
 				fallback: 'style-loader',
@@ -28,8 +32,8 @@ module.exports = {
     	new ExtractTextPlugin('styles/main.css')
     ],
     resolve: {
-	alias: {
-		'vue$': 'vue/dist/vue.common.js' // Fix to make webpack get the standalone version of Vue instead of runtime
-	}
-}
- };
+    	alias: {
+    		'vue$': 'vue/dist/vue.common.js' // Fix to make webpack get the standalone version of Vue instead of runtime
+    	}
+    }
+};
