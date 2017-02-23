@@ -1,6 +1,6 @@
 {
   "name": "Mango-one",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple template: Hapi, Webpack (+ Sass, Babel), Vue, Bulma",
   "scripts": {
     "start": "node server/server.js"
