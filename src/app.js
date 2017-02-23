@@ -1,4 +1,4 @@
-//require.context('', true);
+// Vendor
 require('../node_modules/bulma');
 
 // Index
