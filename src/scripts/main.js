@@ -3,6 +3,7 @@ import Vue from 'vue';
 var app = new Vue({
   el: '#app',
   data: {
-  	message: 'Hello, this is Mango-one'
+  	title: 'Hello,',
+  	subtitle: ' This is Mango-one'
   }
 })
