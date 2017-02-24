@@ -5,7 +5,7 @@ require('../node_modules/bulma');
 require.context('./assets/', true);
 
 // Scripts
-var scripts = require('./scripts/main.js');
+require('./scripts/main.js');
 
 // Sass
 require.context('./sass/', true, /\.scss$/);
