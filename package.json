@@ -3,7 +3,11 @@
   "version": "1.0.1",
   "description": "Simple template: Hapi, Webpack (+ Sass, Babel), Vue, Bulma",
   "scripts": {
-    "start": "node server/server.js"
+    "start": "npm run build && node server/server.js",
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run webpack",
+    "webpack": "webpack",
+    "webpack-watch": "webpack --watch"
   },
   "author": "Mads Mortensen",
   "license": "ISC",
