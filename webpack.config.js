@@ -15,10 +15,10 @@ module.exports = {
     },
     module: {
 	    rules: [{
-            enforce: "pre",
+            enforce: 'pre',
             test: /\.js$/,
             exclude: /node_modules/,
-            loader: "eslint-loader",
+            loader: 'eslint-loader',
         }, {
             test: /\.js$/,
             exclude: /(node_modules|bower_components)/,
