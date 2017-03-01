@@ -3,11 +3,16 @@
   "version": "1.0.1",
   "description": "Simple template: Hapi, Webpack (+ Sass, Babel), Vue, Bulma",
   "scripts": {
-    "start": "npm run build && node server/server.js",
+    "start": "npm run build && npm run server",
     "clean": "rimraf dist",
     "build": "npm run clean && npm run webpack",
     "webpack": "webpack",
-    "webpack-watch": "webpack --watch"
+    "webpack-watch": "webpack --watch",
+    "webpack-test": "webpack --config webpack.test.config.js",
+    "webpack-test-watch": "webpack --config webpack.test.config.js --watch",
+    "server": "node server/server.js",
+    "clean-test": "rimraf test",
+    "build-test": "npm run clean test && npm run webpack-test"    
   },
   "author": "Mads Mortensen",
   "license": "ISC",
@@ -21,6 +26,7 @@
     "extract-text-webpack-plugin": "^2.0.0-rc.3",
     "file-loader": "^0.10.0",
     "html-webpack-plugin": "^2.28.0",
+    "ignore-loader": "^0.1.2",
     "node-sass": "^4.5.0",
     "sass-loader": "^6.0.2",
     "style-loader": "^0.13.1",

@@ -5,7 +5,10 @@ require('../node_modules/bulma');
 require.context('./assets/', true);
 
 // Scripts
-require('./scripts/main.js');
+var req = require.context('./scripts/', true,  /\.js$/);
+req.keys().forEach(key => { 
+	key.indexOf('.spec.js') == -1 && req(key); 
+});
 
 // Sass
 require.context('./sass/', true, /\.scss$/);
