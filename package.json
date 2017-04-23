@@ -13,7 +13,8 @@
     "server": "node server/server.js",
     "clean-test": "rimraf test",
     "build-test": "npm run clean-test && npm run webpack-test",
-    "karma": "karma start config/test/karma.conf.js"
+    "karma": "karma start config/test/karma.conf.js",
+    "build-production": "npm run clean && webpack -p"
   },
   "author": "Mads Mortensen",
   "license": "ISC",
