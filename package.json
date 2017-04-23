@@ -8,8 +8,8 @@
     "build": "npm run clean && npm run webpack",
     "webpack": "webpack",
     "webpack-watch": "webpack --watch",
-    "webpack-test": "webpack --config webpack.test.config.js",
-    "webpack-test-watch": "webpack --config webpack.test.config.js --watch",
+    "webpack-test": "webpack --config ./config/test/webpack.test.config.js",
+    "webpack-test-watch": "webpack --config ./config/test/webpack.test.config.js --watch",
     "server": "node server/server.js",
     "clean-test": "rimraf test",
     "build-test": "npm run clean test && npm run webpack-test"

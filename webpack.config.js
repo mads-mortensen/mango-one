@@ -1,4 +1,4 @@
-var base = require('./webpack.base.config.js');
+var base = require('./config/webpack.base.config.js');
 
 base.entry = {
     'scripts': './src/app.js'
