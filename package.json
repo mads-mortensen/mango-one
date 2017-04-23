@@ -39,6 +39,8 @@
     "node-sass": "^4.5.0",
     "sass-loader": "^6.0.2",
     "style-loader": "^0.13.1",
+    "vue-loader": "^11.3.4",
+    "vue-template-compiler": "^2.2.6",
     "webpack": "^2.2.1"
   },
   "dependencies": {

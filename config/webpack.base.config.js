@@ -17,6 +17,16 @@ module.exports = {
             exclude: /(node_modules|bower_components)/,
             loader: 'babel-loader?presets[]=es2015'
         }, {
+            test: /\.vue$/,
+            exclude: /(node_modules|bower_components)/,
+            loader: 'vue-loader',
+            options: {
+                loaders: {
+                    scss: 'vue-style-loader!css-loader!sass-loader', // <style lang="scss">
+                    sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax' // <style lang="sass">
+                }
+            }
+        }, {
 			test: /\.scss|sass$/,
 			use: ExtractTextPlugin.extract({
 				fallback: 'style-loader',
