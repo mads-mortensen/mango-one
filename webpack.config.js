@@ -1,10 +1,11 @@
 var base = require('./config/webpack.base.config.js');
+var path = require('path');
 
 base.entry = {
     'scripts': './src/app.js'
 };
 base.output = {
-    path: './dist/',
+    path: path.resolve(__dirname, './dist'),
     filename: '[name]/main.js'
 };
 base.module.rules.push({ 
